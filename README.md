@@ -27,4 +27,22 @@ npm install -g api_request
 
 npm install -g node-uuid
 
+## Lancement de lemonNode.js
+### Le serveur de session et le fournisseur d'identité
 
+LemonNode est livré avec un serveur de session en javascript et une application d'identification 
+
+La commande 
+  1001PX:~/lemonNode$ ./startservice.sh
+
+Lance les deux  services 
+ 
+  1001PX:~/lemonNode$ le serveur ecoute sur le port 8090
+
+### lancement du reverse proxy 
+  
+  1001PX:~/lemonNode$ node lemonnode.js 
+
+   Lancement de lemon:nodeJS
+   le serveur lemon:nodeJS V0.0 ecoute sur le port 8080 
+ 
