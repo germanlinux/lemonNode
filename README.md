@@ -46,3 +46,14 @@ Lance les deux  services
    Lancement de lemon:nodeJS
    le serveur lemon:nodeJS V0.0 ecoute sur le port 8080 
  
+### modification du fichier /etc/hosts
+ 
+Ajouter les deux lignes suivantes: 
+
+   127.0.0.1       idp.demo.appli
+   127.0.0.1       monintranet.demo.appli
+
+### Test
+   faire pointer son navigateur sur monintranet.demo.appli:8080
+
+
